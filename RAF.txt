@@ -1,0 +1,32 @@
+
+
+#298ce5
+******Couleurs :
+rouge vif : #760f0c
+rouge : #df2229
+rouge très clair : #eda7b2
+gris clair : #f7f7f7
+
+******Pages à créer : 
+
+index.php ------------- OK
+services.php ---------- OK
+noslaboratoires.php
+accueil.php
+apropos.php
+espacepro.php
+blogsante.php
+
+cdtprelevement.php
+pecassurance.php
+recuperationresultat.php
+ctlanalyse.php
+analysecovid.php
+devis.php
+
+espacepro.php
+blogsante.php
+
+******RAF : 
+- Couleur bleu rehetra avadika rouge
+- Numéro topbar, lien réseaux sociaux
