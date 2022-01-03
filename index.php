@@ -150,7 +150,7 @@
       </div>
     </section><!-- End Why Us Section -->
 
-    <!-- ======= Frequently Asked Questions Section ======= -->
+    <!-- ======= Historique Section ======= -->
     <section id="faq" class="faq section-bg">
       <div class="container">
 

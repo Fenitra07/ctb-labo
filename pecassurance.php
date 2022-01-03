@@ -62,7 +62,7 @@
         <ul>
           <li><a class="nav-link scrollto" href="index.php">Accueil</a></li>
           <li><a class="nav-link scrollto" href="services.php">A propos</a></li>
-          <li class="dropdown"><a href="noslaboratoires.php" class="active"><span>Nos laboratoires</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="noslaboratoires.php"><span>Nos laboratoires</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="noslaboratoires.php">CTB Andraharo</a></li>
               <li><a href="noslaboratoires.php">CTB Ivato</a></li>
@@ -70,7 +70,7 @@
               <li><a href="noslaboratoires.php">CTB Mahajanga</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href=""><span>Je veux faire des analyses</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href="" class="active"><span>Je veux faire des analyses</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="cdtprelevement.php">Conditions de prélèvement</a></li>
               <li><a href="pecassurance.php">Prise en charge assurance</a></li>
@@ -100,127 +100,77 @@
         <div class="d-flex justify-content-between align-items-center">
           <!-- <h2>Inner Page</h2> -->
           <ol>
-            <li><a href="services.php">Nos laboratoires</a></li>
-            <li>Liste de nos laboratoires</li>
+            <li><a href="services.php">Je veux faire des analyses</a></li>
+            <li>Prise en charge assurance</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <!-- ======= Departments Section ======= -->
-    <section id="departments" class="departments">
+    <!-- ======= PEC Section ======= -->
+    <section id="faq" class="faq">
       <div class="container">
 
         <div class="section-title">
-          <h2>Nos laboratoires</h2>
-          <p>Le Centre Technique Biomédical est présent à Antananarivo, Toamasina, Mahajanga et Nosy-Be.</p>
+          <h2>Prise en charge assurance</h2>
+<!--           <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : BSA GRAS SAVOYE, SANLAM, ASCOMA, Ny Havana et Allianz. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p> -->
         </div>
 
-        <div class="row">
-          <div class="col-lg-3">
-            <ul class="nav nav-tabs flex-column">
-              <li class="nav-item">
-                <a class="nav-link active show" data-bs-toggle="tab" href="#tab-1">Centre technique biomédical d’Antananarivo</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-2">Centre technique biomédical d’Ivato</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-3">Centre technique biomédical de Toamasina</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-4">Centre technique biomédical de Mahajanga</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" data-bs-toggle="tab" href="#tab-5">Laboratoire de Nosy-Be</a>
-              </li>
-            </ul>
-          </div>
-          <div class="col-lg-9 mt-4 mt-lg-0">
-            <div class="tab-content">
-              <div class="tab-pane active show" id="tab-1">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Centre technique biomédical d’Antananarivo</h3>
-                    <!-- <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p> -->
-                    <p>Lot IVL4 Ambodivonakely Ambohimanarina <br>
-                        Tel : 020 22 450 61 <br>
-                        Mob : 032 11 450 61 <br>
-                        Mail : ctb.tana@ctb.mg
-                    </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
+        <div class="faq-list">
+          <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : BSA GRAS SAVOYE, SANLAM, ASCOMA, Ny Havana et Allianz. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p>
+          <ul>
+            <li data-aos="fade-up">
+              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">ASCOMA<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
+                <p>
+                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins d’une semaine et conforme aux conditions de prise en charge <br>
+                  - Lettre de prise en charge délivrée par ASCOMA <br>
+                  - Carte d’adhérent
+                </p>
               </div>
-              <div class="tab-pane" id="tab-2">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Centre technique biomédical d’Ivato</h3>
-                    <!-- <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p> -->
-                    <p>Lot 25 A Antanetibe Antehiroka <br>
-                      Mob : 032 11 777 74 <br>
-                      Mail : ctb.ivato@ctb.mg 
-                    </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="100">
+              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">BSA GRAS SAVOYE<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois et conforme aux conditions de prise en charge <br>
+                  - Carte d’adhérent
+                </p>
               </div>
-              <div class="tab-pane" id="tab-3">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Centre technique biomédical de Toamasina</h3>
-                    <!-- <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p> -->
-                    <p>27 bis Rue Lattre de Tassigny ANJOMA <br>
-                      Mob : 032 11 777 71 <br>
-                      Mail : ctb.toamaisina@ctb.mg
-                    </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="200">
+              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">SANLAM<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois et conforme aux conditions de prise en charge <br>
+                  - Carte d’adhérent <br>
+                  - Éventuellement une lettre de prise en charge
+                </p>
               </div>
-              <div class="tab-pane" id="tab-4">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Centre technique biomédical de Mahajanga</h3>
-                    <!-- <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p> -->
-                    <p>Lot 01 05 FO 110 MANGARIVOTRA <br>
-                      Mob : 032 05 450 60/ 032 05 450 61 <br>
-                      Mail : ctb.mahajanga@gmail.com 
-                    </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
+            </li>
+
+            <li data-aos="fade-up" data-aos-delay="300">
+              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Ny Havana<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
+                <p>
+                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois <br>
+                  - Une déclaration sinistre rigoureusement remplie <br>
+                  - Carte d’adhérent <br>
+                  - S’il s’agit d’un personnel de l’assurance Ny Havana, il faut l’ordonnance venant du dispensaire Ny Havana ainsi que la carte d’adhérent.
+                </p>
               </div>
-              <div class="tab-pane" id="tab-5">
-                <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
-                    <h3>Laboratoire de Nosy-Be</h3>
-                    <p class="fst-italic">Pour les habitants et les personnes de passage à Nosy-Be, sachez que nous travaillons également en collaboration avec LNB ou Laboratoire de Nosy-Be</p>
-                    <p>Immeuble Aro Nosy-Be Hell-Ville <br>
-                      Mob : 032 11 450 65 <br>
-                      Mail : laboratoirenosybe@gmail.com
-                    </p>
-                  </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+            </li>
+          </ul>
+
+          <p style="text-align: justify;">Il est à noter que toutes les analyses ne sont pas prises en charge par ces assurances. En effet, il existe une liste des exclusions spécifiques à chaque assurance. Pour savoir si votre ordonnance bénéficie de la prise en charge, vous pouvez vous présenter à l’accueil ou envoyer un scan de l’ordonnance par mail ou en message privé sur Facebook.</p>
+        
         </div>
 
       </div>
-    </section><!-- End Departments Section -->
+    </section><!-- End PEC Section -->
 
   </main><!-- End #main -->
 

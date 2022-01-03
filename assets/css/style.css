@@ -1109,14 +1109,17 @@ section {
   list-style: none;
 }
 .faq .faq-list li + li {
-  margin-top: 15px;
+  margin-top: 5px;
 }
+
+
 .faq .faq-list li {
   padding: 20px;
   background: #fff;
   border-radius: 4px;
   position: relative;
 }
+
 .faq .faq-list a {
   display: block;
   position: relative;

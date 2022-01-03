@@ -11,14 +11,14 @@ gris clair : #f7f7f7
 
 index.php ------------- OK
 services.php ---------- OK
-noslaboratoires.php
-accueil.php
-apropos.php
+noslaboratoires.php --- OK
+accueil.php 
+apropos.php ----------- OK
 espacepro.php
 blogsante.php
 
 cdtprelevement.php
-pecassurance.php
+pecassurance.php ---------- OK
 recuperationresultat.php
 ctlanalyse.php
 analysecovid.php
