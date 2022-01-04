@@ -70,7 +70,7 @@
               <li><a href="noslaboratoires.php">CTB Mahajanga</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="" class="active"><span>Je veux faire des analyses</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href=""><span>Je veux faire des analyses</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="cdtprelevement.php">Conditions de prélèvement</a></li>
               <li><a href="pecassurance.php">Prise en charge assurance</a></li>
@@ -80,7 +80,7 @@
               <li><a href="devis.php">Demande de devis</a></li>
             </ul>
           </li>
-          <li><a class="nav-link scrollto" href="espacepro.php">Espace professionnel</a></li>
+          <li><a class="nav-link scrollto active" href="espacepro.php">Espace professionnel</a></li>
           <li><a class="nav-link scrollto" href="blogsante.php">Blog santé</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
@@ -100,8 +100,8 @@
         <div class="d-flex justify-content-between align-items-center">
           <!-- <h2>Inner Page</h2> -->
           <ol>
-            <li><a href="devis.php">Je veux faire des analyses</a></li>
-            <li>Demande de devis</li>
+            <li><a href="espacepro.php">Espace professionnel</a></li>
+            <li>Espace professionnel</li>
           </ol>
         </div>
 
@@ -113,7 +113,7 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Demander un devis</h2>
+          <h2>Espace professionnel</h2>
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
@@ -133,7 +133,7 @@
             </div>
           </div> -->
           <div class="row">
-            <div class="col-md-4 form-group mt-3">
+            <div class="col-md-6 form-group mt-3">
               <select name="laboratoire" id="laboratoire" class="form-select">
                 <option value="laboratoire">- Choisissez un Laboratoire -</option>
                 <option value="andraharo">Andraharo</option>
@@ -143,65 +143,24 @@
               </select>
               <div class="validate"></div>
             </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="genre" id="genre" class="form-select">
-                <option value="votre_genre">- Choissez votre genre -</option>
-                <option value="monsieur">Monsieur</option>
-                <option value="madame">Madame</option>
-                <option value="garcon">Enfant / Garçon</option>
-                <option value="fille">Enfant / Fille</option>
-              </select>
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group mt-3">
-              <select name="prise_en_charge" id="prise_en_charge" class="form-select">
-                <option value="prise_en_charge">- Prise en charge -</option>
-                <option value="oui">Oui</option>
-                <option value="oui">Non</option>
+            <div class="col-md-6 form-group mt-3">
+              <select name="objet_demande" id="objet_demande" class="form-select">
+                <option value="objet">- Objet de votre demande -</option>
+                <option value="collaboration">Demande de collaboration </option>
+                <option value="stage">Demande de stage</option>
+                <option value="emploi">Demande d'emploi</option>
+                <option value="fournisseur">Fournisseurs</option>
               </select>
               <div class="validate"></div>
             </div>
           </div>
-
-          <!-- Si Prise en charge = TRUE -->
-          <div class="row">
-            <div class="col-md-6 form-group mt-3">
-              <select name="assurance_pec" id="assurance_pec" class="form-select">
-                <option value="">- Sélectionner votre assurance prise en charge -</option>
-                <option value="ascoma">ASCOMA</option>
-                <option value="bsa">BSA</option>
-                <option value="ny_havana">NY HAVANA</option>
-                <option value="mci">MCI</option>
-              </select>
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-6 form-group mt-3">
-              <select name="taux_pec" id="taux_pec" class="form-select">
-                <option value="">- Sélectionner votre Taux de PEC -</option>
-                <option value="cent">100%</option>
-                <option value="quatrevingtquinze">95%</option>
-                <option value="quatrevingtdix">90%</option>
-                <option value="quatrevingt">80%</option>
-                <option value="soixante">60%</option>
-              </select>
-              <div class="validate"></div>
-            </div>
-          </div>
-
           <div class="row">  
             <div class="col-md-6 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="telephone" id="telephone" placeholder="Votre numéro de téléphone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
+              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Votre numéro de téléphone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
               <div class="validate"></div>
             </div>
             <div class="col-md-6 form-group mt-3 mt-md-0">
               <input type="mail" class="form-control" name="email" id="email" placeholder="Votre adresse email" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-12 form-group mt-12 mt-md-0">
-              <p style="font-size: 15px;"><i>* Joindre votre ordonance ou un autre fichier</i></p>
-              <input type="file" class="form-control" name="fichier" id="fichier" placeholder="Joindre votre ordonance ou autre fichier">
               <div class="validate"></div>
             </div>
           </div>
@@ -212,7 +171,7 @@
           <div class="mb-3">
             <div class="loading">Loading</div>
             <div class="error-message"></div>
-            <div class="sent-message">Votre demande de devis a été soumise avec succès !</div>
+            <div class="sent-message">Votre demande a été soumise avec succès !</div>
           </div>
           <div class="text-center"><button type="submit">Envoyer</button></div>
         </form>

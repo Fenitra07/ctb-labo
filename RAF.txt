@@ -10,23 +10,21 @@ gris clair : #f7f7f7
 ******Pages à créer : 
 
 index.php ------------- OK
+footer.php ------------ OK
 services.php ---------- OK
 noslaboratoires.php --- OK
 accueil.php 
 apropos.php ----------- OK
-espacepro.php
+espacepro.php --------- OK
 blogsante.php
 
 cdtprelevement.php
 pecassurance.php ---------- OK
-recuperationresultat.php
+recuperationresultat.php -- OK
 ctlanalyse.php
 analysecovid.php
-devis.php
+devis.php ----------------- OK
 
-espacepro.php
-blogsante.php
 
 ******RAF : 
-- Couleur bleu rehetra avadika rouge
 - Numéro topbar, lien réseaux sociaux
