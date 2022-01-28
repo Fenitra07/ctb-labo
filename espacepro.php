@@ -118,32 +118,8 @@
         </div>
 
         <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
-<!--           <div class="row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-          </div> -->
           <div class="row">
-            <div class="col-md-6 form-group mt-3">
-              <select name="laboratoire" id="laboratoire" class="form-select">
-                <option value="laboratoire">- Choisissez un Laboratoire -</option>
-                <option value="andraharo">Andraharo</option>
-                <option value="ivato">Ivato</option>
-                <option value="toamasina">Toamasina</option>
-                <option value="mahajanga">Mahajanga</option>
-              </select>
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-6 form-group mt-3">
+            <div class="col-md-4 form-group mt-3">
               <select name="objet_demande" id="objet_demande" class="form-select">
                 <option value="objet">- Objet de votre demande -</option>
                 <option value="collaboration">Demande de collaboration </option>
@@ -153,6 +129,28 @@
               </select>
               <div class="validate"></div>
             </div>
+            <div class="col-md-4 form-group mt-3">
+              <select name="genre" class="form-select" id="choix_genre" onclick="choixGenre()">
+                <option>- Votre genre -</option>
+                <option>Mr</option>
+                <option>Mme</option>
+                <option>Dr</option>
+                <option>Pr</option>
+                <option>Entreprise</option>
+                <option>Assurance</option>
+                <option>Autres à préciser</option>
+              </select>
+              <div class="validate"></div>
+            </div>
+              <div class="col-md-4 form-group mt-3">
+                <div id="autre_precision1">
+                  <input type="tel" class="form-control" name="si_autre" id="si_autre" placeholder="Autres à préciser..." disabled>
+                </div>
+                <div id="autre_precision2" style="display: none">
+                  <input type="tel" class="form-control" name="si_autre" id="si_autre" placeholder="Autres à préciser...">
+                </div>
+              </div>
+
           </div>
           <div class="row">  
             <div class="col-md-6 form-group mt-3 mt-md-0">
@@ -202,6 +200,29 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- Jquery JS-->
+  <script src="assets/js/jquery.min.js"></script>
+
+<!-- Prise en charge assurance -->
+  <script type="text/javascript">
+
+    function choixGenre(){
+
+      var choix_genre = document.getElementById("choix_genre").value;
+    console.log(choix_genre);
+
+      if (choix_genre == "Autres à préciser") {
+        document.getElementById("autre_precision2").style.display = "block";
+        document.getElementById("autre_precision1").style.display = "none";
+      }
+
+      if (choix_genre == "- Votre genre -" || choix_genre == "Mr" || choix_genre == "Mme" || choix_genre == "Dr" || choix_genre == "Pr" || choix_genre == "Entreprise" || choix_genre == "Assurance") {
+        document.getElementById("autre_precision2").style.display = "none";
+        document.getElementById("autre_precision1").style.display = "block";
+      }
+
+    }
+  </script>
 
 </body>
 
