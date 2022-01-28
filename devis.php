@@ -118,20 +118,6 @@
         </div>
 
         <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
-<!--           <div class="row">
-            <div class="col-md-4 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" data-rule="email" data-msg="Please enter a valid email">
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-4 form-group mt-3 mt-md-0">
-              <input type="tel" class="form-control" name="phone" id="phone" placeholder="Your Phone" data-rule="minlen:4" data-msg="Please enter at least 4 chars">
-              <div class="validate"></div>
-            </div>
-          </div> -->
           <div class="row">
             <div class="col-md-4 form-group mt-3">
               <select name="laboratoire" id="laboratoire" class="form-select">
@@ -154,16 +140,17 @@
               <div class="validate"></div>
             </div>
             <div class="col-md-4 form-group mt-3">
-              <select name="prise_en_charge" id="prise_en_charge" class="form-select">
-                <option value="prise_en_charge">- Prise en charge -</option>
-                <option value="oui">Oui</option>
-                <option value="oui">Non</option>
+              <select name="prise_en_charge" class="form-select" id="operation1" onclick="myOperation1()">
+                <option>- Prise en charge -</option>
+                <option>Oui</option>
+                <option>Non</option>
               </select>
               <div class="validate"></div>
             </div>
           </div>
 
           <!-- Si Prise en charge = TRUE -->
+          <div id="r_yes1" style="display: none">
           <div class="row">
             <div class="col-md-6 form-group mt-3">
               <select name="assurance_pec" id="assurance_pec" class="form-select">
@@ -187,6 +174,7 @@
               </select>
               <div class="validate"></div>
             </div>
+          </div>
           </div>
 
           <div class="row">  
@@ -244,6 +232,28 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+    <!-- Jquery JS-->
+  <script src="assets/js/jquery.min.js"></script>
+
+<!-- Prise en charge assurance -->
+  <script type="text/javascript">
+
+    function myOperation1() {
+
+      var operation1 = document.getElementById("operation1").value;
+    console.log(operation1);
+
+      if (operation1 == "Oui") {
+        document.getElementById("r_yes1").style.display = "inline";
+      }
+
+      if (operation1 == "- Prise en charge -" || operation1 == "Non") {
+        document.getElementById("r_yes1").style.display = "none";
+      }
+
+
+    }
+  </script>
 
 </body>
 
