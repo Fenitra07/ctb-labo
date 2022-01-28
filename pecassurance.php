@@ -37,8 +37,8 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">ctb.communication@ctb.mg</a>
-        <i class="bi bi-phone"></i> +261 34 44 444 44
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">ctb.tana@ctb.mg</a>
+        <i class="bi bi-phone"></i>020 22 450 61 <i class="fa fa-phone"></i>+261 32 11 450 61
       </div>
 <!--       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -118,7 +118,7 @@
         </div>
 
         <div class="faq-list">
-          <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : BSA GRAS SAVOYE, SANLAM, ASCOMA, Ny Havana et Allianz. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p>
+          <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : <a href="" class="partenaires_link" target="_blank">BSA GRAS SAVOYE</a>, <a href="" class="partenaires_link" target="_blank">SANLAM</a>, <a href="" class="partenaires_link" target="_blank">ASCOMA</a>, <a href="" class="partenaires_link" target="_blank">Ny Havana</a> et <a href="" class="partenaires_link" target="_blank">Allianz</a>. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p>
           <ul>
             <li data-aos="fade-up">
               <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">ASCOMA<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>

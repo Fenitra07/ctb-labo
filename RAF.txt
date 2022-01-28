@@ -17,6 +17,7 @@ accueil.php
 apropos.php ----------- OK
 espacepro.php --------- OK
 blogsante.php
+faq.php --------------- OK
 
 cdtprelevement.php
 pecassurance.php ---------- OK

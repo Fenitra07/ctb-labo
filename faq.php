@@ -37,8 +37,8 @@
   <div id="topbar" class="d-flex align-items-center fixed-top">
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
-        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">ctb.communication@ctb.mg</a>
-        <i class="bi bi-phone"></i> +261 34 44 444 44
+        <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">ctb.tana@ctb.mg</a>
+        <i class="bi bi-phone"></i>020 22 450 61 <i class="fa fa-phone"></i>+261 32 11 450 61
       </div>
 <!--       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>

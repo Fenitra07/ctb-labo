@@ -12,11 +12,12 @@
           <div class="col-lg-3 col-md-3 footer-contact">
             <h3>ctb-labo</h3>
             <p>
-              Adresse principale <br>
-              Ville<br>
-              Pays <br><br>
-              <strong>Téléphone:</strong> +261 34 44 444 44<br>
-              <strong>Email:</strong> ctb.communication@ctb.mg<br>
+              Lot IVL 4 Ambodivonakely Andraharo <br>
+              Antananarivo<br>
+              Madagascar <br><br>
+              <strong>Fixe :</strong> 020 22 450 61<br>
+              <strong>Mobile :</strong> +261 32 11 450 61<br>
+              <strong>Email :</strong> ctb.tana@ctb.mg<br>
             </p>
           </div>
 
@@ -77,8 +78,8 @@
         <!-- <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a> -->
         <a href="" class="facebook" target="_blank"><i class="bx bxl-facebook"></i></a>
         <!-- <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a> -->
-        <a href="" class="google-plus" target="_blank"><i class="bx bxl-skype"></i></a>
-        <a href="" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a>
+        <!-- <a href="" class="google-plus" target="_blank"><i class="bx bxl-skype"></i></a>
+        <a href="" class="linkedin" target="_blank"><i class="bx bxl-linkedin"></i></a> -->
       </div>
     </div>
 
