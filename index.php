@@ -212,6 +212,28 @@
       </div>
     </section><!-- End Frequently Asked Questions Section -->
 
+<!-- ======= Réseau de soin Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container">
+
+        <div class="section-title">
+          <h2>Nous faisons partie du réseau de soin :</h2>
+        </div>
+
+        <div class="container">
+          <center>
+          <div class="row">
+            <div class="col-md-3"><img style="width: 240px;" src="assets/img/logo_allianz.png"></div>
+            <div class="col-md-3"><img style="width: 168px; height: 59px;" src="assets/img/logo_ascoma.jpg"></div>
+            <div class="col-md-3"><img style="width: 135px; height: 60px;" src="assets/img/logo_mci.png"></div>
+            <div class="col-md-3"><img style="width: 110px;height: 65px;" src="assets/img/logo_savoye.png"></div>
+          </div>
+          </center>
+        </div>
+
+      </div>
+    </section><!-- End Réseau de soin Section -->
+
     <!-- ======= Gallery Section ======= -->
     <section id="gallery" class="gallery">
       <div class="container">
@@ -293,31 +315,6 @@
 
       </div>
     </section><!-- End Gallery Section -->
-
-<!-- ======= Réseau de soin Section ======= -->
-    <section id="faq" class="faq">
-      <div class="container">
-
-        <div class="section-title">
-          <h2>Nous faisons partie du réseau de soin :</h2>
-        </div>
-
-        <div class="container">
-          <center>
-          <div class="row">
-            <div class="col-md-3"><img style="width: 240px;" src="assets/img/logo_allianz.png"></div>
-            <div class="col-md-3"><img style="width: 168px; height: 59px;" src="assets/img/logo_ascoma.jpg"></div>
-            <div class="col-md-3"><img style="width: 135px; height: 60px;" src="assets/img/logo_mci.png"></div>
-            <div class="col-md-3"><img style="width: 110px;height: 65px;" src="assets/img/logo_savoye.png"></div>
-          </div>
-          </center>
-        </div>
-
-      </div>
-    </section><!-- End Réseau de soin Section -->
-
-
-
 
   </main><!-- End #main -->
 

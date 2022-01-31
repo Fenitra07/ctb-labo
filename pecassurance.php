@@ -136,7 +136,8 @@
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p>
                   - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois et conforme aux conditions de prise en charge <br>
-                  - Carte d’adhérent
+                  - Carte d’adhérent <br>
+                  <i>Soit,</i>  vous présentez seulement votre carnet de prise en charge.
                 </p>
               </div>
             </li>
