@@ -141,7 +141,7 @@
             <div class="tab-content">
               <div class="tab-pane active show" id="tab-1">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
+                  <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical d’Antananarivo</h3>
                     <!-- <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p> -->
                     <p>Lot IVL4 Ambodivonakely Ambohimanarina <br>
@@ -150,14 +150,17 @@
                         Mail : ctb.tana@ctb.mg
                     </p>
                   </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-2">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
+                  <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical d’Ivato</h3>
                     <!-- <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p> -->
                     <p>Lot 25 A Antanetibe Antehiroka <br>
@@ -165,14 +168,17 @@
                       Mail : ctb.ivato@ctb.mg 
                     </p>
                   </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-3">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
+                  <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical de Toamasina</h3>
                     <!-- <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p> -->
                     <p>27 bis Rue Lattre de Tassigny ANJOMA <br>
@@ -180,14 +186,17 @@
                       Mail : ctb.toamaisina@ctb.mg
                     </p>
                   </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-4">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
+                  <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical de Mahajanga</h3>
                     <!-- <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p> -->
                     <p>Lot 01 05 FO 110 MANGARIVOTRA <br>
@@ -195,14 +204,17 @@
                       Mail : ctb.mahajanga@gmail.com 
                     </p>
                   </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
                   </div>
                 </div>
               </div>
               <div class="tab-pane" id="tab-5">
                 <div class="row">
-                  <div class="col-lg-8 details order-2 order-lg-1">
+                  <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Laboratoire de Nosy-Be</h3>
                     <p class="fst-italic">Pour les habitants et les personnes de passage à Nosy-Be, sachez que nous travaillons également en collaboration avec LNB ou Laboratoire de Nosy-Be</p>
                     <p>Immeuble Aro Nosy-Be Hell-Ville <br>
@@ -210,7 +222,10 @@
                       Mail : laboratoirenosybe@gmail.com
                     </p>
                   </div>
-                  <div class="col-lg-4 text-center order-1 order-lg-2">
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
+                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-lg-3 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
                   </div>
                 </div>

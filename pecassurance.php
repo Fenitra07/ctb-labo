@@ -118,7 +118,7 @@
         </div>
 
         <div class="faq-list">
-          <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : <a href="" class="partenaires_link" target="_blank">BSA GRAS SAVOYE</a>, <a href="" class="partenaires_link" target="_blank">SANLAM</a>, <a href="" class="partenaires_link" target="_blank">ASCOMA</a>, <a href="" class="partenaires_link" target="_blank">Ny Havana</a> et <a href="" class="partenaires_link" target="_blank">Allianz</a>. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p>
+          <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : <a href="" class="partenaires_link" target="_blank">BSA GRAS SAVOYE</a>, <a href="https://www.mci-care.mg" class="partenaires_link" target="_blank">SANLAM</a>, <a href="" class="partenaires_link" target="_blank">ASCOMA</a>, <a href="https://www.nyhavana.mg" class="partenaires_link" target="_blank">Ny Havana</a> et <a href="https://www.allianz.mg" class="partenaires_link" target="_blank">Allianz</a>. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p>
           <ul>
             <li data-aos="fade-up">
               <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">ASCOMA<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>

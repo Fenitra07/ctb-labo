@@ -305,13 +305,10 @@
         <div class="container">
           <center>
           <div class="row">
-            <div class="col-md-4"><h3>BSA gras-savoye</h3></div>
-            <div class="col-md-4"><h3>MCI CARE/SANLAM</h3></div>
-            <div class="col-md-4"><h3>Ny Havana</h3></div>
-          </div>
-          <div class="row">
-            <div class="col-md-6"><h3>Allianz</h3></div>
-            <div class="col-md-6"><h3>Ascoma</h3></div>
+            <div class="col-md-3"><img style="width: 240px;" src="assets/img/logo_allianz.png"></div>
+            <div class="col-md-3"><img style="width: 168px; height: 59px;" src="assets/img/logo_ascoma.jpg"></div>
+            <div class="col-md-3"><img style="width: 135px; height: 60px;" src="assets/img/logo_mci.png"></div>
+            <div class="col-md-3"><img style="width: 110px;height: 65px;" src="assets/img/logo_savoye.png"></div>
           </div>
           </center>
         </div>

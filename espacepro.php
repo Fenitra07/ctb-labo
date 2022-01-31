@@ -123,9 +123,10 @@
               <select name="objet_demande" id="objet_demande" class="form-select">
                 <option value="objet">- Objet de votre demande -</option>
                 <option value="collaboration">Demande de collaboration </option>
-                <option value="stage">Demande de stage</option>
-                <option value="emploi">Demande d'emploi</option>
                 <option value="fournisseur">Fournisseurs</option>
+                <option value="stage">Demande de stage Technique</option>
+                <option value="stage">Demande de stage administrative</option>
+                <option value="emploi">Demande d'emploi</option>
               </select>
               <div class="validate"></div>
             </div>
