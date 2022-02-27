@@ -531,6 +531,28 @@ section {
   margin-bottom: 0;
 }
 
+
+.analyse_titre_h5 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  color: #2c4964;
+}
+
+.analyse_titre_h6 {
+  font-size: 15px;
+  text-indent: 20px; 
+  font-weight: bold;
+  margin-top: 10px;
+  padding-top: 10px;
+  margin-bottom: 5px;
+  padding-bottom: 5px;
+  position: relative;
+  color: #686767;
+}
+
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/

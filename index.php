@@ -223,10 +223,16 @@
         <div class="container">
           <center>
           <div class="row">
-            <div class="col-md-3"><img style="width: 240px;" src="assets/img/logo_allianz.png"></div>
-            <div class="col-md-3"><img style="width: 168px; height: 59px;" src="assets/img/logo_ascoma.jpg"></div>
-            <div class="col-md-3"><img style="width: 135px; height: 60px;" src="assets/img/logo_mci.png"></div>
-            <div class="col-md-3"><img style="width: 110px;height: 65px;" src="assets/img/logo_savoye.png"></div>
+            <div class="col-md-3"><a href="https://www.allianz.mg" target="_blank"><img style="width: 240px;" src="assets/img/logo_allianz.png"></a></div>
+            <div class="col-md-3"><a href="" target="_blank"><img style="width: 168px; height: 59px;" src="assets/img/logo_ascoma.jpg"></a></div>
+            <div class="col-md-3"><a href="https://www.mci-care.mg" target="_blank"><img style="width: 135px; height: 60px;" src="assets/img/logo_mci.png"></a></div>
+            <div class="col-md-3"><a href="" target="_blank"><img style="width: 110px;height: 65px;" src="assets/img/logo_savoye.png"></a></div>
+          </div>
+          <div class="row" style="padding-top: 30px;">
+            <div class="col-md-3"></div>
+            <div class="col-md-3"><a href="https://www.nyhavana.mg" target="_blank"><img style="width: 250px; height: 70px;" src="assets/img/logo_nyhavana.jpg"></a></div>
+            <div class="col-md-3"><a href="" target="_blank"><img style="width: 220px; height: 65px;" src="assets/img/logo_sanlam.jpg"></a></div>
+            <div class="col-md-3"></div>
           </div>
           </center>
         </div>
@@ -249,48 +255,48 @@
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-1.jpg" class="galelry-lightbox">
-                <img src="assets/img/gallery/gallery-1.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/gallery-1.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-1.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-2.jpg" class="galelry-lightbox">
-                <img src="assets/img/gallery/gallery-2.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/gallery-2.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-2.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-3.jpg" class="galelry-lightbox">
-                <img src="assets/img/gallery/gallery-3.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/gallery-3.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-3.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-4.jpg" class="galelry-lightbox">
-                <img src="assets/img/gallery/gallery-4.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/gallery-4.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-4.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-5.jpg" class="galelry-lightbox">
-                <img src="assets/img/gallery/gallery-5.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/gallery-5.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-5.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
 
           <div class="col-lg-3 col-md-4">
             <div class="gallery-item">
-              <a href="assets/img/gallery/gallery-6.jpg" class="galelry-lightbox">
-                <img src="assets/img/gallery/gallery-6.jpg" alt="" class="img-fluid">
+              <a href="assets/img/gallery/gallery-6.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-6.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>

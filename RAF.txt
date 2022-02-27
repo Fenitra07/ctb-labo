@@ -13,17 +13,16 @@ index.php ------------- OK
 footer.php ------------ OK
 services.php ---------- OK
 noslaboratoires.php --- OK
-accueil.php 
 apropos.php ----------- OK
 espacepro.php --------- OK
-blogsante.php
+blogsante.php --------- (landing page)
 faq.php --------------- OK
 
-cdtprelevement.php
+cdtprelevement.php -------- (landing page)
 pecassurance.php ---------- OK
 recuperationresultat.php -- OK
-ctlanalyse.php
-analysecovid.php
+ctlanalyse.php ------------ (landing page)
+analysecovid.php ---------- OK
 devis.php ----------------- OK
 
 

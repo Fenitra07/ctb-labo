@@ -101,7 +101,7 @@
           <!-- <h2>Inner Page</h2> -->
           <ol>
             <li><a href="pecassurance.php">Je veux faire des analyses</a></li>
-            <li>Prise en charge assurance</li>
+            <li>Informations et Analyses Covid 19</li>
           </ol>
         </div>
 
@@ -113,60 +113,53 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Prise en charge assurance</h2>
-<!--           <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : BSA GRAS SAVOYE, SANLAM, ASCOMA, Ny Havana et Allianz. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p> -->
+          <h2>Les tests Covid 19 chez CTB</h2>
+          <p style="text-align: center;">En cette période de pandémie, le laboratoire CTB propose 2 différents tests pour le Covid-19.</p>
         </div>
 
         <div class="faq-list">
-          <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : <a href="" class="partenaires_link" target="_blank">BSA GRAS SAVOYE</a>, <a href="" class="partenaires_link" target="_blank">SANLAM</a>, <a href="" class="partenaires_link" target="_blank">ASCOMA</a>, <a href="https://www.nyhavana.mg" class="partenaires_link" target="_blank">Ny Havana</a> et <a href="https://www.allianz.mg" class="partenaires_link" target="_blank">Allianz</a>. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p>
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">ASCOMA<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins d’une semaine et conforme aux conditions de prise en charge <br>
-                  - Lettre de prise en charge délivrée par ASCOMA <br>
-                  - Carte d’adhérent
-                </p>
-              </div>
-            </li>
 
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">BSA GRAS SAVOYE<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois et conforme aux conditions de prise en charge <br>
-                  - Carte d’adhérent <br>
-                  <i>Soit,</i>  vous présentez seulement votre carnet de prise en charge.
-                </p>
-              </div>
-            </li>
+<h5 class="analyse_titre_h5">1-     Le test rapide antigénique :</h5>
+<p style="text-align: justify;">
+Le test rapide antigénique (Test CTK Biotech USA) qui détecte la présence de l’antigène (protéine de nucléocapside N et peptide) à l’instant t, signalant la présence du virus. Il s’agit d’un prélèvement nasopharyngé effectué en laboratoire.
+</p>
 
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">SANLAM<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois et conforme aux conditions de prise en charge <br>
-                  - Carte d’adhérent <br>
-                  - Éventuellement une lettre de prise en charge
-                </p>
-              </div>
-            </li>
+<h6 class="analyse_titre_h6">1.1- Quand faire le test ?</h6>
+<p style="text-align: justify;">
+Vous pouvez effectuer le test antigénique si vous présentez des symptômes similaires à ceux d’une infection au Covid-19. C’est au début de la présentation des symptômes que le test permet de faire le diagnostic d’une infection au SARS-CoV-2.
+</p>
+<h6 class="analyse_titre_h6">1.2- Est-ce valable pour prendre l’avion ?</h6>
+<p style="text-align: justify;">
+Par ailleurs, le test antigénique est également valable en tant que pass si vous devez prendre l’avion. Toutefois, il vaut mieux se renseigner auprès de votre compagnie aérienne pour connaitre leurs préférences en termes de test.
+</p>
+<br>
+<h5 class="analyse_titre_h5">2-     Le test sérologique :</h5>
+<p style="text-align: justify;">
+Le Test Rapide d’orientation Diagnostique de détection des anticorps dirigés contre le SARS-CoV-2. Il s’agit cette fois-ci d’un test sérologique. Le test est effectué sur du sérum, à la suite d’un prélèvement sanguin au pli du coude.
+</p> 
+<h6 class="analyse_titre_h6">2.1- Pourquoi faire un test sérologique ?</h6>
+<p style="text-align: justify;">
+Le test sérologique est utile pour faire un contrôle après une infection à la SARS-Cov-2. Comme les anticorps n’apparaissent que tardivement, il vaut mieux effectuer le test environ 14 jours après l’infection.
+Le test sérologique permet aussi de vérifier la présence d’anticorps protecteurs après une vaccination contre le covid 19.
+Il est à préciser que le test sérologique ne permet pas le dépistage d’une infection au covid-19, ni ne peut remplacer un test PCR.
+</p> 
+ 
+<h6 class="analyse_titre_h6">2.2- Comment interpréter les résultats du test sérologique ?</h6>
+<p style="text-align: justify;"><i>Un test sérologique révèle la présence ou l’absence de deux types d’anticorps : </i>
+</p>
+<p style="text-align: justify;">
+  • Les IgM, qui apparaissent en premier <br>
+  • Les IgG, qui apparaissent tardivement
+</p>
+<p style="text-align: justify;"><i>Ainsi, on peut interpréter les résultats d’un test sérologique de plusieurs manières :</i>
+</p>
+<p style="text-align: justify;">
+  • Si les deux types d’anticorps sont négatifs : soit la personne n’a encore jamais rencontré le virus du covid 19, soit il l’a déjà rencontré, mais que les anticorps ne se sont pas encore formés. Il se peut aussi que la personne ait déjà rencontré le virus, mais que les anticorps ont déjà disparu. <br>
+  • Si les anticorps de type IgG sont positifs : soit la personne a déjà rencontré le virus antérieurement, soit il a reçu le vaccin protecteur contre l’infection. <br>
+  • Si les deux types d’anticorps sont positifs : il l’agit d’une infection récente au virus du covid19
+</p>
 
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Ny Havana<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois <br>
-                  - Une déclaration sinistre rigoureusement remplie <br>
-                  - Carte d’adhérent <br>
-                  - S’il s’agit d’un personnel de l’assurance Ny Havana, il faut l’ordonnance venant du dispensaire Ny Havana ainsi que la carte d’adhérent.
-                </p>
-              </div>
-            </li>
-          </ul>
 
-          <p style="text-align: justify;">Il est à noter que toutes les analyses ne sont pas prises en charge par ces assurances. En effet, il existe une liste des exclusions spécifiques à chaque assurance. Pour savoir si votre ordonnance bénéficie de la prise en charge, vous pouvez vous présenter à l’accueil ou envoyer un scan de l’ordonnance par mail ou en message privé sur Facebook.</p>
         
         </div>
 

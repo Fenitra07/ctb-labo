@@ -70,7 +70,7 @@
               <li><a href="noslaboratoires.php">CTB Mahajanga</a></li>
             </ul>
           </li>
-          <li class="dropdown"><a href="" class="active"><span>Je veux faire des analyses</span> <i class="bi bi-chevron-down"></i></a>
+          <li class="dropdown"><a href=""><span>Je veux faire des analyses</span> <i class="bi bi-chevron-down"></i></a>
             <ul>
               <li><a href="cdtprelevement.php">Conditions de prélèvement</a></li>
               <li><a href="pecassurance.php">Prise en charge assurance</a></li>
@@ -81,7 +81,7 @@
             </ul>
           </li>
           <li><a class="nav-link scrollto" href="espacepro.php">Espace professionnel</a></li>
-          <li><a class="nav-link scrollto" href="blogsante.php">Blog santé</a></li>
+          <li><a class="nav-link scrollto active" href="blogsante.php">Blog santé</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -100,78 +100,28 @@
         <div class="d-flex justify-content-between align-items-center">
           <!-- <h2>Inner Page</h2> -->
           <ol>
-            <li><a href="pecassurance.php">Je veux faire des analyses</a></li>
-            <li>Prise en charge assurance</li>
+            <li><a href="espacepro.php">Je veux faire des analyses</a></li>
+            <li>Conditions de prélèvement</li>
           </ol>
         </div>
 
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <!-- ======= PEC Section ======= -->
-    <section id="faq" class="faq">
+    <!-- ======= Appointment Section ======= -->
+    <section id="appointment" class="appointment">
       <div class="container">
 
         <div class="section-title">
-          <h2>Prise en charge assurance</h2>
-<!--           <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : BSA GRAS SAVOYE, SANLAM, ASCOMA, Ny Havana et Allianz. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p> -->
-        </div>
-
-        <div class="faq-list">
-          <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : <a href="" class="partenaires_link" target="_blank">BSA GRAS SAVOYE</a>, <a href="" class="partenaires_link" target="_blank">SANLAM</a>, <a href="" class="partenaires_link" target="_blank">ASCOMA</a>, <a href="https://www.nyhavana.mg" class="partenaires_link" target="_blank">Ny Havana</a> et <a href="https://www.allianz.mg" class="partenaires_link" target="_blank">Allianz</a>. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p>
-          <ul>
-            <li data-aos="fade-up">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">ASCOMA<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
-                <p>
-                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins d’une semaine et conforme aux conditions de prise en charge <br>
-                  - Lettre de prise en charge délivrée par ASCOMA <br>
-                  - Carte d’adhérent
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">BSA GRAS SAVOYE<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois et conforme aux conditions de prise en charge <br>
-                  - Carte d’adhérent <br>
-                  <i>Soit,</i>  vous présentez seulement votre carnet de prise en charge.
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">SANLAM<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois et conforme aux conditions de prise en charge <br>
-                  - Carte d’adhérent <br>
-                  - Éventuellement une lettre de prise en charge
-                </p>
-              </div>
-            </li>
-
-            <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Ny Havana<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
-              <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
-                <p>
-                  - Ordonnance originale en bonne et due forme (avec nom, prénoms, date, renseignement clinique, cachet et signature du médecin) datant de moins de 3 mois <br>
-                  - Une déclaration sinistre rigoureusement remplie <br>
-                  - Carte d’adhérent <br>
-                  - S’il s’agit d’un personnel de l’assurance Ny Havana, il faut l’ordonnance venant du dispensaire Ny Havana ainsi que la carte d’adhérent.
-                </p>
-              </div>
-            </li>
-          </ul>
-
-          <p style="text-align: justify;">Il est à noter que toutes les analyses ne sont pas prises en charge par ces assurances. En effet, il existe une liste des exclusions spécifiques à chaque assurance. Pour savoir si votre ordonnance bénéficie de la prise en charge, vous pouvez vous présenter à l’accueil ou envoyer un scan de l’ordonnance par mail ou en message privé sur Facebook.</p>
-        
+          <h2>
+            Cette page est en cours de conception... <br>
+            <i class="fa fa-spinner"></i>
+          </h2>
+          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
       </div>
-    </section><!-- End PEC Section -->
+    </section><!-- End Appointment Section -->
 
   </main><!-- End #main -->
 
@@ -196,6 +146,29 @@
 
   <!-- Template Main JS File -->
   <script src="assets/js/main.js"></script>
+  <!-- Jquery JS-->
+  <script src="assets/js/jquery.min.js"></script>
+
+<!-- Prise en charge assurance -->
+  <script type="text/javascript">
+
+    function choixGenre(){
+
+      var choix_genre = document.getElementById("choix_genre").value;
+    console.log(choix_genre);
+
+      if (choix_genre == "Autres à préciser") {
+        document.getElementById("autre_precision2").style.display = "block";
+        document.getElementById("autre_precision1").style.display = "none";
+      }
+
+      if (choix_genre == "- Votre genre -" || choix_genre == "Mr" || choix_genre == "Mme" || choix_genre == "Dr" || choix_genre == "Pr" || choix_genre == "Entreprise" || choix_genre == "Assurance") {
+        document.getElementById("autre_precision2").style.display = "none";
+        document.getElementById("autre_precision1").style.display = "block";
+      }
+
+    }
+  </script>
 
 </body>
 
