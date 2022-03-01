@@ -37,8 +37,8 @@
                     ->setBody("<b>Objet :</b> ".$objet."<br>"."<b>Email : </b>".$email."<br>"."<b>Genre : </b>".$gender."<br>". "<b>Phone : </b>".$phone."<br>"."<b>Message :</b> ".$message."<br>", 'text/html')
                 ;
                 $mailer->send($message);
-                echo "ok";
                 header('Content-type: application/json');
+                echo json_encode(['message' => "ok"]);
             } catch (Exception $exception) {
                 var_dump($exception);
             }

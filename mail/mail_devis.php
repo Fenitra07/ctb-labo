@@ -16,19 +16,19 @@
             // verifier extension file
             if(!in_array($imageFileType, ['png','jpg','jpeg','gif','pdf'])) {
                 header('Content-type: application/json');
-                echo json_encode(['message' => "Type de fichier invalide"]);
+                echo json_encode(['message' => "Type de fichier invalide. Type accepté ['png','jpg','jpeg','gif','pdf']"]);
                 exit();
             }
             //verifier size
             if ($_FILES["fichier"]["size"] > 500000) {
                 header('Content-type: application/json');
-                echo json_encode(['message' => "Ficher trop large"]);
+                echo json_encode(['message' => "Votre fichier est trop large"]);
                 exit();
             }
             // save file
             if(!move_uploaded_file($_FILES["fichier"]["tmp_name"], $targetFile)) {
                 header('Content-type: application/json');
-                echo json_encode(['message' => "Error on upload file"]);
+                echo json_encode(['message' => "Impossible de télécharger le fichier"]);
                 exit();
             }
 

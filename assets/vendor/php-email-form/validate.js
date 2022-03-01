@@ -26,7 +26,9 @@
       thisForm.querySelector('.sent-message').classList.remove('d-block');
 
       let formData = new FormData( thisForm );
-
+      if (document.getElementById('fichier') != null) {
+        formData.append('fichier', document.getElementById('fichier').files[0]);
+      }
       if ( recaptcha ) {
         if(typeof grecaptcha !== "undefined" ) {
           grecaptcha.ready(function() {
@@ -59,13 +61,17 @@
       if( response.ok ) {
         return response.text()
       } else {
-        throw new Error(`${response.status} ${response.statusText} ${response.url}`); 
+        throw new Error('Une erreur est survenu, merci de ressayer plutard');
       }
     })
     .then(data => {
-      thisForm.querySelector('.loading').classList.remove('d-block');
-      thisForm.querySelector('.sent-message').classList.add('d-block');
-      thisForm.reset();
+        thisForm.querySelector('.loading').classList.remove('d-block');
+        if (JSON.parse(data).message == 'ok') {
+            thisForm.querySelector('.sent-message').classList.add('d-block');
+            thisForm.reset();
+        } else {
+            throw new Error(JSON.parse(data).message);
+        }
     })
     .catch((error) => {
       displayError(thisForm, error);
