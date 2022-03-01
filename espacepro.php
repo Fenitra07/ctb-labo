@@ -117,15 +117,15 @@
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+        <form action="mail/mail_espace_pro.php" method="post" role="form" class="php-email-form">
           <div class="row">
             <div class="col-md-4 form-group mt-3">
               <select name="objet_demande" id="objet_demande" class="form-select">
                 <option value="objet">- Objet de votre demande -</option>
                 <option value="collaboration">Demande de collaboration </option>
                 <option value="fournisseur">Fournisseurs</option>
-                <option value="stage">Demande de stage Technique</option>
-                <option value="stage">Demande de stage administrative</option>
+                <option value="stage_technique">Demande de stage Technique</option>
+                <option value="stage_rh">Demande de stage administrative</option>
                 <option value="emploi">Demande d'emploi</option>
               </select>
               <div class="validate"></div>
@@ -145,7 +145,7 @@
             </div>
               <div class="col-md-4 form-group mt-3">
                 <div id="autre_precision1">
-                  <input type="tel" class="form-control" name="si_autre" id="si_autre" placeholder="Autres à préciser..." disabled>
+                  <input type="tel" class="form-control" name="si_autre" id="si_autre_disabled" placeholder="Autres à préciser..." disabled>
                 </div>
                 <div id="autre_precision2" style="display: none">
                   <input type="tel" class="form-control" name="si_autre" id="si_autre" placeholder="Autres à préciser...">
@@ -215,11 +215,10 @@
       if (choix_genre == "Autres à préciser") {
         document.getElementById("autre_precision2").style.display = "block";
         document.getElementById("autre_precision1").style.display = "none";
-      }
-
-      if (choix_genre == "- Votre genre -" || choix_genre == "Mr" || choix_genre == "Mme" || choix_genre == "Dr" || choix_genre == "Pr" || choix_genre == "Entreprise" || choix_genre == "Assurance") {
+      } else {
         document.getElementById("autre_precision2").style.display = "none";
         document.getElementById("autre_precision1").style.display = "block";
+        document.getElementById("si_autre").value = "";
       }
 
     }
