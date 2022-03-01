@@ -117,7 +117,7 @@
           <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
-        <form action="forms/appointment.php" method="post" role="form" class="php-email-form">
+        <form action="mail/mail_devis.php" method="post" role="form" class="php-email-form" enctype="multipart/form-data">
           <div class="row">
             <div class="col-md-4 form-group mt-3">
               <select name="laboratoire" id="laboratoire" class="form-select">
