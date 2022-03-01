@@ -65,9 +65,9 @@
                     ->setTo([$mailTo])
                     ->setBody("<b>Objet :</b> ".$objet."<br>".
                         "<b>Email : </b>".$email."<br>".
-                        "<b>Genre : </b>".$gender."<br>".
                         "<b>Phone : </b>".$phone."<br>".
                         "<b>Laboratoire : </b>".strtoupper($laboratoire)."<br>".
+                        "<b>Genre : </b>".$gender."<br>".
                         "<b>Prise en charge :</b> ".$priseCharge."<br>".
                         "<b>Assurance :</b> ".$assurancePec."<br>".
                         "<b>Taux :</b> ".$tauxPec."<br>".

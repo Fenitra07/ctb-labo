@@ -34,8 +34,12 @@
                 $message = (new Swift_Message(("$email ($objet) - ESPACE PRO")))
                     ->setFrom([PARAMS['sender'] => 'ctb-labo.mg'])
                     ->setTo([$mailTo])
-                    ->setBody("<b>Objet :</b> ".$objet."<br>"."<b>Email : </b>".$email."<br>"."<b>Genre : </b>".$gender."<br>". "<b>Phone : </b>".$phone."<br>"."<b>Message :</b> ".$message."<br>", 'text/html')
-                ;
+                    ->setBody("<b>Objet :</b> ".$objet."<br>".
+                        "<b>Genre : </b>".$gender."<br>".
+                        "<b>Email : </b>".$email."<br>".
+                        "<b>Phone : </b>".$phone."<br>".
+                        "<b>Message :</b> ".$message."<br>"
+                        , 'text/html');
                 $mailer->send($message);
                 header('Content-type: application/json');
                 echo json_encode(['message' => "ok"]);
