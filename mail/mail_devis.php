@@ -9,6 +9,7 @@
             && isset($_POST['prise_en_charge'])
         ) {
             // traitement file
+            echo "traitement";
             $targetDir = "../uploads/";
             $targetFile = $targetDir . basename($_FILES["fichier"]["name"]);
             $imageFileType = strtolower(pathinfo($targetFile,PATHINFO_EXTENSION));
@@ -49,8 +50,8 @@
             try {
 
                 $transport = (new Swift_SmtpTransport(PARAMS['mailer_host'], PARAMS['mailer_port']))
-        //    ->setUsername('no-reply@go-dominican-republic.com')
-        //    ->setPassword('A741852*/')
+                    ->setUsername(PARAMS['mailer_user'])
+                    ->setPassword(PARAMS['mailer_password'])
                 ;
         // Create the Mailer using your created Transport
                 $mailer = new Swift_Mailer($transport);
