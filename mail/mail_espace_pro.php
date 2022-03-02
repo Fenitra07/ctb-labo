@@ -13,12 +13,7 @@
             $email = $_POST['email'];
             $message = $_POST['message'];
             // destination mail
-            $to["collaboration"] = "ctb.communication@ctb.mg";
-            $to["fournisseur"] = "ctb.communication@ctb.mg";
-            $to["stage_technique"] = "ctb.administratif@ctb.mg";
-            $to["stage_rh"] = "ctb.rh@ctb.mg";
-            $to["emploi"] = "ctb.rh@ctb.mg";
-            $mailTo = $to[$objet]?? exit();
+            $mailTo = PARAMS[$objet]?? exit();
 
         // Create the Transport
             try {

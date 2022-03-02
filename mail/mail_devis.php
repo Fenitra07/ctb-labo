@@ -43,11 +43,7 @@
             $message = $_POST['message'];
 
             // destination mail
-            $to["andraharo"] = "ctb.tana@ctb.mg";
-            $to["ivato"] = "ctb.ivato@ctb.mg";
-            $to["toamasina"] = "ctb.toamaisina@ctb.mg";
-            $to["mahajanga"] = "ctb.mahajanga@gmail.com";
-            $mailTo = $to[$laboratoire]?? exit();
+            $mailTo = PARAMS[$laboratoire]?? exit();
 
         // Create the Transport
             try {
