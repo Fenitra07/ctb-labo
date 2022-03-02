@@ -9,7 +9,6 @@
             && isset($_POST['prise_en_charge'])
         ) {
             // traitement file
-            echo "traitement";
             $targetDir = "../uploads/";
             $targetFile = $targetDir . basename($_FILES["fichier"]["name"]);
             $imageFileType = strtolower(pathinfo($targetFile,PATHINFO_EXTENSION));
