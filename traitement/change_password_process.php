@@ -1,12 +1,3 @@
-<?php
-session_start();
-if(isset($_SESSION['user']))
-{
-  session_destroy();
-}
-
-?>
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -45,49 +36,62 @@ if(isset($_SESSION['user']))
 </head>
 
 <body>
+
 <?php
-  if (isset($_POST['identifiant'])&& isset($_POST['motdepasse'])) {
-    $login = $_POST['identifiant'];
-    $mdp = $_POST['motdepasse'];
+require_once '../parameters.php';
+include('../connexion/connexion.php');
 
-  require_once '../parameters.php';
-  include('../connexion/connexion.php');
+if(
+  isset($_POST['id']) 
+  && isset($_POST["motdepasse"])
+  && isset($_POST["nouveau_motdepasse"])
+  )
 
+  $id = $_POST['id'];
+  $mdp = $_POST['nouveau_motdepasse'];
+// var_dump($id);die();
+  $sql = "UPDATE login SET login_password='$mdp' WHERE id=$id";
 
+// var_dump($sql);die();
 
-  $sql = "SELECT * FROM login WHERE login_identifiant = '$login' AND login_password='$mdp'";
-  $result = $conn->query($sql);
-  $row = $result->fetch_assoc();
-
-  if ($row) {
-    $_SESSION['user'] = '$login';
-    $_SESSION['password'] = '$mdp';
-    header("location:../dashboard.php");
+  if ($conn->query($sql) === TRUE) {
+// Si les informations sont validées, rediriger l'utilisateur vers la vue (template)
+    echo "<script type='text/javascript'>
+       Swal.fire(
+      'Mot de passe changé avec succès !',
+      'Veuillez cliquer sur le boutton ci-dessous !',
+      'success'
+    );
+    var btnSwalls = document.getElementsByClassName('swal2-confirm');
+            for(var i = 0; i<btnSwalls.length; i++)
+            {
+              btnSwalls[i].addEventListener('click', function(e){
+                e.preventDefault();
+                window.location = '../dashboard.php';
+                })
+            }
+    </script>";   
   }else{
     echo "<script type='text/javascript'>
         Swal.fire({
           icon: 'error',
           title: 'Oops...',
-          text: 'Identifiant ou mot de passe incorrect'
+          text: 'Veuillez contacter l \'administrateur du site!'
         });
         var btnSwalls = document.getElementsByClassName('swal2-confirm');
         for(var i = 0; i<btnSwalls.length; i++)
         {
           btnSwalls[i].addEventListener('click', function(e){
             e.preventDefault();
-            window.location = '../login.php';
+            window.location = 'change_password.php';
             })
         }
       </script>";
   }
-  }
-  else
-  {
-    header("location:../login.php");
-  }
-  mysqli_close($conn);
- ?>
 
+  mysqli_close($conn);
+
+ ?>
 
   <!-- Vendor JS Files -->
   <script src="../assets/vendor/purecounter/purecounter.js"></script>
@@ -97,7 +101,7 @@ if(isset($_SESSION['user']))
   <script src="../assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 

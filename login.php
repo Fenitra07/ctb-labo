@@ -40,12 +40,6 @@
         <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">ctb.tana@ctb.mg</a>
         <i class="bi bi-phone"></i>020 22 450 61 <i class="fa fa-phone"></i>+261 32 11 450 61
       </div>
-<!--       <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div> -->
     </div>
   </div>
 
@@ -100,7 +94,7 @@
         <div class="d-flex justify-content-between align-items-center">
           <!-- <h2>Inner Page</h2> -->
           <ol>
-            <li><a href="devis.php">Tableau de bord</a></li>
+            <li><a href="login.php">Tableau de bord</a></li>
             <li>Accéder à votre tableau de bord</li>
           </ol>
         </div>
@@ -108,13 +102,12 @@
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <!-- ======= Appointment Section ======= -->
+    <!-- ======= Login Section ======= -->
     <section id="appointment" class="appointment">
       <div class="container">
 
         <div class="section-title">
           <h2>Authentification</h2>
-          <!-- <p>Magnam dolores commodi suscipit. Necessitatibus eius consequatur ex aliquid fuga eum quidem. Sit sint consectetur velit. Quisquam quos quisquam cupiditate. Et nemo qui impedit suscipit alias ea. Quia fugiat sit in iste officiis commodi quidem hic quas.</p> -->
         </div>
 
       <div class="login_box">
@@ -123,11 +116,14 @@
             <div class="row">
               <div class="form-group">
                 <label class="label_login">Identifiant</label>
-                <input type="text" class="form-control" name="identifiant">
+                <input type="text" class="form-control" name="identifiant" required>
               </div>
               <div class="form-group">
                 <label class="label_login">Mot de passe</label>
-                <input type="password" class="form-control" name="password">
+                <input type="password" class="form-control" name="motdepasse" required id="showPassword">
+                <span style="margin-left: -390px;font-size: 15px;">
+                  <input type="checkbox" onclick="myFunction()"> Afficher
+                </span>
               </div>
             <div class="text-center"><input type="submit" class="input_submit" value="Se connecter"></div>
             </div>
@@ -136,7 +132,7 @@
       </div>
 
       </div>
-    </section><!-- End Appointment Section -->
+    </section><!-- End Login Section -->
 
   </main><!-- End #main -->
 
@@ -167,21 +163,16 @@
 <!-- Prise en charge assurance -->
   <script type="text/javascript">
 
-    function myOperation1() {
-
-      var operation1 = document.getElementById("operation1").value;
-    console.log(operation1);
-
-      if (operation1 == "Oui") {
-        document.getElementById("r_yes1").style.display = "inline";
+    function myFunction() {
+      var x = document.getElementById("showPassword");
+      if (x.type === "password") {
+        x.type = "text";
+      } else {
+        x.type = "password";
       }
-
-      if (operation1 == "- Prise en charge -" || operation1 == "Non") {
-        document.getElementById("r_yes1").style.display = "none";
-      }
-
-
     }
+
+
   </script>
 
 </body>

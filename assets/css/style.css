@@ -86,6 +86,26 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
+.article_box {
+/*  padding-left: 320px;
+  padding-right: 320px;*/
+}
+
+
+.box_effect {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px;
+  border-radius: 15px;
+}
+
+.box_effect_form {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 40px;
+  padding-bottom: 55px;
+  margin-bottom: 30px;
+  /*border-radius: 15px;*/
+}
+
 .back-to-top {
   position: fixed;
   visibility: hidden;

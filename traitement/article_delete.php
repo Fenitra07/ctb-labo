@@ -2,8 +2,20 @@
 session_start();
 if(isset($_SESSION['user']))
 {
-  session_destroy();
-}
+require_once '../parameters.php';
+include('../connexion/connexion.php');
+
+// 10 mins in seconds
+$inactive = 300;
+if( !isset($_SESSION['timeout']) )
+$_SESSION['timeout'] = time() + $inactive;
+
+$session_life = time() - $_SESSION['timeout'];
+
+if($session_life > $inactive)
+{  session_destroy(); header("location:../login.php");     }
+
+$_SESSION['timeout']=time();
 
 ?>
 
@@ -45,48 +57,42 @@ if(isset($_SESSION['user']))
 </head>
 
 <body>
-<?php
-  if (isset($_POST['identifiant'])&& isset($_POST['motdepasse'])) {
-    $login = $_POST['identifiant'];
-    $mdp = $_POST['motdepasse'];
 
+<?php
+  $id = $_GET['id'];
   require_once '../parameters.php';
   include('../connexion/connexion.php');
 
+  // sql to delete a record
+  $sql = "DELETE FROM article WHERE id=$id";
+
+  if ($conn->query($sql) === TRUE) {
+      echo "<script type='text/javascript'>
+       Swal.fire(
+      'Suppression réussie!',
+      'Veuillez cliquer sur le boutton ci-dessous !',
+      'success'
+    );
+    var btnSwalls = document.getElementsByClassName('swal2-confirm');
+            for(var i = 0; i<btnSwalls.length; i++)
+            {
+              btnSwalls[i].addEventListener('click', function(e){
+                e.preventDefault();
+                window.location = '../dashboard.php';
+                })
+            }
+    </script>";
+
+  } else {
+      echo "Error deleting record: " . $conn->error;
+  }
+
+  $conn->close();
+
+?>
 
 
-  $sql = "SELECT * FROM login WHERE login_identifiant = '$login' AND login_password='$mdp'";
-  $result = $conn->query($sql);
-  $row = $result->fetch_assoc();
 
-  if ($row) {
-    $_SESSION['user'] = '$login';
-    $_SESSION['password'] = '$mdp';
-    header("location:../dashboard.php");
-  }else{
-    echo "<script type='text/javascript'>
-        Swal.fire({
-          icon: 'error',
-          title: 'Oops...',
-          text: 'Identifiant ou mot de passe incorrect'
-        });
-        var btnSwalls = document.getElementsByClassName('swal2-confirm');
-        for(var i = 0; i<btnSwalls.length; i++)
-        {
-          btnSwalls[i].addEventListener('click', function(e){
-            e.preventDefault();
-            window.location = '../login.php';
-            })
-        }
-      </script>";
-  }
-  }
-  else
-  {
-    header("location:../login.php");
-  }
-  mysqli_close($conn);
- ?>
 
 
   <!-- Vendor JS Files -->
@@ -97,9 +103,16 @@ if(isset($_SESSION['user']))
   <script src="../assets/vendor/php-email-form/validate.js"></script>
 
   <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+  <script src="../assets/js/main.js"></script>
 
 </body>
 
 </html>
 
+<?php
+}
+else{
+    header("location:../login.php");
+}
+
+?>
