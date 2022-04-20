@@ -114,7 +114,6 @@
 
         <div class="section-title">
           <h2>Prise en charge assurance</h2>
-<!--           <p style="text-align: justify;">Le laboratoire CTB fait partie du réseau de plusieurs assurances : BSA GRAS SAVOYE, SANLAM, ASCOMA, Ny Havana et Allianz. Si vous faites partie des assurés, nous vous invitons à connaître les documents requis pour bénéficier d’une prise en charge lors de votre passage dans notre laboratoire d’analyses.</p> -->
         </div>
 
         <div class="faq-list">

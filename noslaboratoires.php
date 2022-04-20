@@ -143,36 +143,36 @@
                 <div class="row">
                   <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical d’Antananarivo</h3>
-                    <!-- <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p> -->
                     <p>Lot IVL4 Ambodivonakely Ambohimanarina <br>
                         Tel : 020 22 450 61 <br>
                         Mob : 032 11 450 61 <br>
                         Mail : ctb.tana@ctb.mg
                     </p>
                   </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
+
+                  <div class="col-lg-6 text-center order-1 order-lg-2">
+                    <div>
+                      <iframe style="border:0; width: 100%; height: 310px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d790.1866671737235!2d47.5043678!3d-18.8782175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f08095055d7b23%3A0xdebd79b5284e614a!2sCentre%20Technique%20Biom%C3%A9dical%20CTB!5e1!3m2!1sfr!2smg!4v1650299129983!5m2!1sfr!2smg" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
+                  <!-- <div class="col-lg-3 text-center order-1 order-lg-2">
                     <img src="assets/img/departments-1.jpg" alt="" class="img-fluid">
-                  </div>
+                  </div> -->
                 </div>
               </div>
               <div class="tab-pane" id="tab-2">
                 <div class="row">
                   <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical d’Ivato</h3>
-                    <!-- <p class="fst-italic">Qui laudantium consequatur laborum sit qui ad sapiente dila parde sonata raqer a videna mareta paulona marka</p> -->
                     <p>Lot 25 A Antanetibe Antehiroka <br>
                       Mob : 032 11 777 74 <br>
                       Mail : ctb.ivato@ctb.mg 
                     </p>
                   </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-2.jpg" alt="" class="img-fluid">
+                  <div class="col-lg-6 text-center order-1 order-lg-2">
+                    <div>
+                      <iframe style="border:0; width: 100%; height: 310px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d790.1866671737235!2d47.5043678!3d-18.8782175!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f08095055d7b23%3A0xdebd79b5284e614a!2sCentre%20Technique%20Biom%C3%A9dical%20CTB!5e1!3m2!1sfr!2smg!4v1650299129983!5m2!1sfr!2smg" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -180,17 +180,15 @@
                 <div class="row">
                   <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical de Toamasina</h3>
-                    <!-- <p class="fst-italic">Eos voluptatibus quo. Odio similique illum id quidem non enim fuga. Qui natus non sunt dicta dolor et. In asperiores velit quaerat perferendis aut</p> -->
                     <p>27 bis Rue Lattre de Tassigny ANJOMA <br>
                       Mob : 032 11 777 71 <br>
                       Mail : ctb.toamaisina@ctb.mg
                     </p>
                   </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-3.jpg" alt="" class="img-fluid">
+                  <div class="col-lg-6 text-center order-1 order-lg-2">
+                    <div>
+                      <iframe style="border:0; width: 100%; height: 310px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d793.5180124438599!2d49.4120884!3d-18.1585877!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x21f501c9e6541549%3A0x5db7465f1cbb5780!2sCTB!5e1!3m2!1sfr!2smg!4v1650299246525!5m2!1sfr!2smg" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -198,17 +196,15 @@
                 <div class="row">
                   <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical de Mahajanga</h3>
-                    <!-- <p class="fst-italic">Totam aperiam accusamus. Repellat consequuntur iure voluptas iure porro quis delectus</p> -->
                     <p>Lot 01 05 FO 110 MANGARIVOTRA <br>
                       Mob : 032 05 450 60/ 032 05 450 61 <br>
                       Mail : ctb.mahajanga@gmail.com 
                     </p>
                   </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-4.jpg" alt="" class="img-fluid">
+                  <div class="col-lg-6 text-center order-1 order-lg-2">
+                    <div>
+                      <iframe style="border:0; width: 100%; height: 310px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
               </div>
@@ -222,11 +218,10 @@
                       Mail : laboratoirenosybe@gmail.com
                     </p>
                   </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
-                  </div>
-                  <div class="col-lg-3 text-center order-1 order-lg-2">
-                    <img src="assets/img/departments-5.jpg" alt="" class="img-fluid">
+                  <div class="col-lg-6 text-center order-1 order-lg-2">
+                    <div>
+                      <iframe style="border:0; width: 100%; height: 310px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                    </div>
                   </div>
                 </div>
               </div>

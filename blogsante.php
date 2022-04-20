@@ -47,6 +47,7 @@
   background: #fff;
   margin: 15px;
   box-shadow: 0 0 5px 3px rgba(0,0,0,.15);
+  border-radius: 10px 10px 0 0;
 }
 #post .post-content .post-image {
   padding: 15px;
@@ -60,7 +61,7 @@
 }
 
 .btn-post {
-  background: #07518b;
+  background: #2c4964;
   color: #fff;
   margin: 15px 25px;
 }
@@ -119,6 +120,41 @@ a:hover {
   text-decoration: none;
 } 
 
+/*BLOG*/
+  .news-thumb {
+    background: #ffffff;
+    border-radius: 10px;
+  }
+  .news-thumb img {
+    border-radius: 10px 10px 0 0;
+  }
+
+  .news-info {
+    padding: 30px;
+    text-align: left;
+    background-color: #fafafa;
+  }
+  .news-info span {
+    display: block;
+    letter-spacing: 0.5px;
+  }
+  .news-info h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+    font-size: 1.8em;
+    line-height: 1.2em;
+    font-weight: 600;
+  }
+
+  .img-responsive {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
+/*BLOG*/
+
 </style>
 
 
@@ -131,12 +167,6 @@ a:hover {
         <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">ctb.tana@ctb.mg</a>
         <i class="bi bi-phone"></i>020 22 450 61 <i class="fa fa-phone"></i>+261 32 11 450 61
       </div>
-<!--       <div class="d-none d-lg-flex social-links align-items-center">
-        <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
-        <a href="#" class="facebook"><i class="bi bi-facebook"></i></a>
-        <a href="#" class="instagram"><i class="bi bi-instagram"></i></a>
-        <a href="#" class="linkedin"><i class="bi bi-linkedin"></i></i></a>
-      </div> -->
     </div>
   </div>
 
@@ -212,35 +242,7 @@ a:hover {
 
   <div class="container-fluid">
         <div class="row">
-          <div class="col-md-12 col-lg-3">
-            <aside id="filter">
-              <h3><b>Historique</b></h3>
-              <div class="actu-filter">
-                <div class="check-filter">
-                  <ul>
-
-                <?php
-
-                  $sql = "SELECT * FROM article ORDER BY id ASC";
-                  $result = mysqli_query($conn, $sql);
-
-                  if ($result->num_rows > 0) {
-                    while($row = $result->fetch_assoc()) {
-                 ?>
-                  <li class="li_titres"><a href="blogsante_voir.php?id=<?php echo $row['id']; ?>"><?php echo $row['titre_art']; ?></a></li>
-
-                <?php
-                    }
-                  }
-                ?>
-
-                  </ul>
-                </div>
-              </div>
-            </aside>
-          </div>
-          <div class="col-md-12 col-lg-9">
-            <section id="post">
+          
                   <?php
                     $sql = "SELECT * FROM article";
                     $resultat = mysqli_query($conn, $sql);
@@ -262,29 +264,31 @@ a:hover {
                     if ($result->num_rows > 0) {
                     while($row = $result->fetch_assoc()) {
                   ?>
-                    <div class="post-content">
-                      <div class="row">
-                        <div class="col-md-4 col-sm-12">
-                          <div class="post-image">
-                            <img src="<?php echo 'upload/'.$row['image_art'] ?>">
-                          </div>
-                        </div>
-                        <div class="col-md-8 col-sm-12">
-                          <div class="post-detail">
-                            <h4><?php echo $row['titre_art']; ?></h4>
-                            <p>
-                              <?php echo(substr($row['contenu_art'],0,210).'...'); ?>
-                            </p>
-                          </div>
+
+                  <div class="col-md-4 col-sm-6">
+                    <div class="news-thumb wow fadeInUp" data-wow-delay="0.4s">
+                      <a href="blogsante_voir.php?id=<?php echo $row['id']; ?>">
+                          <img style="width: 100%; height: 260px;" src="<?php echo 'upload/'.$row['image_art'] ?>" alt="">
+                      </a>
+
+                      <div class="news-info">
+                        <span><?php echo $row['date_pub_art']; ?></span>
+                        <a href="blogsante_voir.php?id=<?php echo $row['id']; ?>">
+                          <h3><?php echo $row['titre_art']; ?></h3>
+                        </a>
+                        <p><?php echo(substr($row['contenu_art'],0,210).'...'); ?></p>
+                        <div class="author">
                           <a href="blogsante_voir.php?id=<?php echo $row['id']; ?>">
-                              <div class="post-btn">
-                                <button class="btn btn-post float-right">En savoir plus</button>
-                              </div>
-                            </a>
+                            <div class="post-btn">
+                              <button class="btn btn-post float-right">En savoir plus</button>
+                            </div>
+                          </a>
                         </div>
                       </div>
+                      
                     </div>
 
+                    </div>
                     <?php
                         }
                       }
@@ -304,8 +308,7 @@ a:hover {
 
                      </ul>
                    </div>
-            </section>
-          </div>
+          
         </div>
   </div>
 

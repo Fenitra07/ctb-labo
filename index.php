@@ -111,7 +111,7 @@
             <div class="content">
               <h3>Pourquoi nous ?</h3>
               <p style="text-align: justify;">
-                Exemple de texte que vous pourrez mettre ici pour persuader les client de vous choisir, et de mettre en avant vos valeurs ajoutées. Exemple de texte que vous pourrez mettre ici pour persuader les client de vous choisir, et de mettre en avant vos valeurs ajoutées.
+                La fiabilité des résultats est l’un des piliers principaux de notre laboratoire. Notre équipe est composée de jeunes techniciens dynamiques, qualifiés et rigoureux dans leur travail. La majorité de nos résultats d’analyses est obtenue au bout d’une journée. 
               </p>
 <!--               <div class="text-center">
                 <a href="#" class="more-btn">Learn More <i class="bx bx-chevron-right"></i></a>
@@ -119,29 +119,29 @@
             </div>
           </div>
           <div class="col-lg-8 d-flex align-items-stretch">
-            <div class="icon-boxes d-flex flex-column justify-content-center">
+            <div class="icon-boxes d-flex flex-column">
               <div class="row">
-                <div class="col-xl-4 d-flex align-items-stretch">
+                <div class="col-xl-6 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-atom"></i>
-                    <h4>Valeur/Vision</h4>
-                    <p>Mettez en avant vos valeurs ou votre vision ici</p>
+                    <h4>Fiabilité & Rapidité </h4>
+                    <p style="text-align: justify;">Depuis sa création, le Laboratoire CTB a s’est implanté dans des lieux stratégiques et a veillé tout particulièrement à la fiabilité et la rapidité de ses résultats.</p>
                   </div>
                 </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
+                <div class="col-xl-6 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="fa fa-hand-holding-medical"></i>
-                    <h4>Valeur/Vision</h4>
-                    <p>Mettez en avant vos valeurs ou votre vision ici</p>
+                    <h4>Une biologie de proximité</h4>
+                    <p style="text-align: justify;">Grâce à la situation géographique de nos laboratoires et à nos services, vous pouvez retirer vos résultats dans le laboratoire CTB le plus proche.</p>
                   </div>
                 </div>
-                <div class="col-xl-4 d-flex align-items-stretch">
+                <!-- <div class="col-xl-4 d-flex align-items-stretch">
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="fa fa-briefcase-medical"></i>
                     <h4>Valeur/Vision</h4>
                     <p>Mettez en avant vos valeurs ou votre vision ici</p>
                   </div>
-                </div>
+                </div> -->
               </div>
             </div><!-- End .content-->
           </div>
@@ -156,52 +156,57 @@
 
         <div class="section-title">
           <h2>Historique</h2>
-          <p>Racontez votre historique en quelques paragraphes ici et mettez en avant les évènements ou les faits les plus marquants.</p>
+          <!-- <p>Le directeur du laboratoire, Mr Philippe PONCELET, est venu à Madagascar pour la première fois lors d’un concours d’athlétisme. Ce premier passage dans la Grande île l’a vraiment marqué, si bien qu’il a décidé de revenir, mais pour faire de l’humanitaire cette fois-ci. Philanthrope de nature, il s’est lancé dans les aides humanitaires en faveur des personnes vulnérables et des enfants défavorisés malagasy. </p> -->
         </div>
 
         <div class="faq-list">
           <ul>
             <li data-aos="fade-up">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Historique / A propos de l'entreprise (01)<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-history icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Lancement du projet humanitaire<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
-                  Vous pourrez ajouter un paragraphe ici. Voici un exemple de texte comme aperçu de la longueur : Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Le directeur du laboratoire, Mr Philippe PONCELET, est venu à Madagascar pour la première fois lors d’un concours d’athlétisme. Ce premier passage dans la Grande île l’a vraiment marqué, si bien qu’il a décidé de revenir, mais pour faire de l’humanitaire cette fois-ci. Philanthrope de nature, il s’est lancé dans les aides humanitaires en faveur des personnes vulnérables et des enfants défavorisés malagasy. 
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">Historique / A propos de l'entreprise (02)<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-history icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">2010, installation du premier laboratoire<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
-                  Vous pourrez ajouter un paragraphe ici. Voici un exemple de texte comme aperçu de la longueur : Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Se rendant compte que la biologie n’est pas toujours accessible au peuple malgache, c’est en 2010 qu’il a commencé à installer le premier laboratoire d’analyses médicales CTB à Antananarivo. Situé à Mandrosoa Ivato, celui-ci a commencé à traiter les analyses biochimiques de base avant de s’étendre vers les sérologies plus complexes.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="200">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Historique / A propos de l'entreprise (03)<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-history icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-3" class="collapsed">Traitement des analyses<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-3" class="collapse" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
-                  Vous pourrez ajouter un paragraphe ici. Voici un exemple de texte comme aperçu de la longueur : Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Le laboratoire CTB réalise la majorité de ses analyses médicales sur place, tandis que les analyses spécialisées sont envoyées à l’extérieur via un partenariat de longue date avec les laboratoires Cerba et Bioréunion. 
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="300">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Historique / A propos de l'entreprise (04)<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-history icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Extension et partenariat<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
-                  Vous pourrez ajouter un paragraphe ici. Voici un exemple de texte comme aperçu de la longueur : Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Pour étendre son projet de rendre la biologie plus accessible, il a ouvert un autre laboratoire à Tamatave en 2012. Celui-ci est situé près de Bazary Be. Le laboratoire CTB Tamatave, traite presque toutes les analyses médicales sur place, sauf celles qui sont spécialisées.
                 </p>
               </div>
             </li>
 
             <li data-aos="fade-up" data-aos-delay="400">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Historique / A propos de l'entreprise (05)<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-history icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-5" class="collapsed">Une biologie de proximité<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
-                  Vous pourrez ajouter un paragraphe ici. Voici un exemple de texte comme aperçu de la longueur : Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  Afin de satisfaire la demande de la population située plus en centre-ville d’Antananarivo, le laboratoire CTB situé à Andraharo a été créé en Décembre 2012. Le plateau technique y a été transféré, et le laboratoire n’a cessé de diversifier les analyses à traiter. <br>
+                  Pour compléter l’extension des laboratoires CTB, celui de CTB Majunga a été ouvert en 2016. Comme celui de Tamatave, il effectue également presque toutes les analyses. <br>
+                  D’autre part, le laboratoire CTB collabore avec d’autres sites indépendants : <br>
+                  • Le CAMM (Centre d’Analyses Médicales de Moramanga), situé à Moramanga, ouvert en 2017 <br>
+                  • Le SITMAM, situé à Ambatolampy depuis 2017 <br>
+                  • Le laboratoire de Nosy-Be ou LNB qui a ouvert en 2018
                 </p>
               </div>
             </li>

@@ -7,6 +7,17 @@ gris clair : #f7f7f7
 
 ******Pages à créer : 
 
+liens maps ------------------ RESTES
+
+Conditions de prélèvement : refonte
+
+Blog ------------------------ OK
+Liste des analyses ---------- OK
+Nos valeurs ----------------- OK
+Histoire de CTB ------------- OK
+
+
+
 login.php ------------- OK
 dahsboard.php --------- OK
 Session --------------- OK

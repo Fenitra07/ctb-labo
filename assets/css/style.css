@@ -664,7 +664,7 @@ section {
   margin-bottom: 30px;
 }
 .why-us .content p {
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
 }
 .why-us .content .more-btn {
   display: inline-block;
@@ -1184,7 +1184,8 @@ section {
 # Frequently Asked Questions
 --------------------------------------------------------------*/
 .faq .faq-list {
-  padding: 0 100px;
+  padding: 0 100px;    
+  list-style-type: none;
 }
 .faq .faq-list ul {
   padding: 0;
@@ -1193,7 +1194,6 @@ section {
 .faq .faq-list li + li {
   margin-top: 5px;
 }
-
 
 .faq .faq-list li {
   padding: 20px;
