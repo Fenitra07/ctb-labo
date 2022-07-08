@@ -38,7 +38,7 @@
     <div class="container d-flex justify-content-between">
       <div class="contact-info d-flex align-items-center">
         <i class="bi bi-envelope"></i> <a href="mailto:contact@example.com">ctb.tana@ctb.mg</a>
-        <i class="bi bi-phone"></i>020 22 450 61 <i class="fa fa-phone"></i>+261 32 11 450 61
+        <i class="bi bi-phone"></i>+261 32 11 450 61 <i class="fa fa-phone"></i>020 22 450 61
       </div>
 <!--       <div class="d-none d-lg-flex social-links align-items-center">
         <a href="#" class="twitter"><i class="bi bi-twitter"></i></a>
@@ -203,7 +203,7 @@
                   </div>
                   <div class="col-lg-6 text-center order-1 order-lg-2">
                     <div>
-                      <iframe style="border:0; width: 100%; height: 310px;" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621" frameborder="0" allowfullscreen></iframe>
+                      <iframe style="border:0; width: 100%; height: 310px;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d803.886531015812!2d46.31509556111564!3d-15.716595442287817!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc158251218dcc84!2zMTXCsDQyJzU5LjIiUyA0NsKwMTgnNTUuMyJF!5e1!3m2!1sfr!2smg!4v1657249624431!5m2!1sfr!2smg" frameborder="0" allowfullscreen></iframe>
                     </div>
                   </div>
                 </div>
