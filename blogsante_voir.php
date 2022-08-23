@@ -147,7 +147,7 @@ a:hover {
 
       <h1 class="logo me-auto">
         <!-- <a href="index.html">ctb-labo.mg</a> -->
-        <a href="index.html" class="logo me-auto"><img src="assets/img/logo-ctb.jpg" alt="" class="img-fluid"></a>
+        <a href="index.php" class="logo me-auto"><img src="assets/img/logo-ctb.jpg" alt="" class="img-fluid"></a>
       </h1>
 
       <nav id="navbar" class="navbar order-last order-lg-0">
