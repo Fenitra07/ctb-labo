@@ -156,6 +156,7 @@ include('connexion/connexion.php');
                         <td><?php echo $row['titre_art']; ?></td>
                         <td>
                           <center>
+                            <a href="traitement/article_update.php?id=<?php echo $row["id"] ?>" class="btn btn-info" onclick="return confirm('Veuillez confirmer votre action!')"><i class="fa fa-edit"></i></a>
                             <a href="traitement/article_delete.php?id=<?php echo $row["id"] ?>" class="btn btn-danger" onclick="return confirm('Veuillez confirmer votre action!')"><i class="fa fa-trash"></i></a>
                             <a href="traitement/article_creation.php" class="btn btn-success"><i class="fa fa-plus"></i></a>
                           </center>

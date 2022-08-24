@@ -54,61 +54,69 @@ $_SESSION['timeout']=time();
   <script src="../assets/js/sweetalert2.all.js"></script>
   <script src="../assets/js/sweetalert2.all.min.js"></script>
 
-<!-- ckeditors -->
-  <script src="https://cdn.ckeditor.com/ckeditor5/35.0.1/classic/ckeditor.js"></script>
-
-
 </head>
 
 <body>
 
-    <!-- CREATION ARTICLE -->
-    <div class="container pt-5">
-      <div class="row article_box">
-          <div class="col-md-12">
-            <center>
-              <div class="box_effect section-title">
-                <h2 class="">
-                  Formulaire de création d'article
-                </h2>
+<?php
+require_once '../parameters.php';
+include('../connexion/connexion.php');
 
-                <form method="post" action="article_insert.php" enctype="multipart/form-data">
-                    <div class="form-group">
-                        <input type="text" class="form-control" name="titre" placeholder="Titre de l'article" required>
-                    </div>
-                    <div class="form-group">
-                        <!-- <input type="hidden" name="MAX_FILE_SIZE" value="30000" /> -->
-                        <input type="file" class="form-control pb-2" name="file">
-                    </div>
-                    <div class="form-group">
-                        
-                      <textarea id="editor" class="form-control" rows="5" name="contenu" placeholder="Rédigez votre article ici..." required></textarea>
+if(
+  isset($_POST["id"])
+  && isset($_POST["titre"])
+  && isset($_POST["contenu"])
+  && isset($_POST["date"])
+  )
 
-                    </div>
-                    <div class="form-group">
-                        <p style="text-align: left;">Date de publication</p>
-                        <input class="form-control" type="date" name="date" required>
-                    </div>
-                    <div>
-                      <input formnovalidate="formnovalidate" type="submit" class="btn btn-primary" value="Ajouter un article">
-                      <a href="../dashboard.php" class="btn btn-danger">Annuler</a>
-                    </div>
-                </form>
-              </div>
-            </center>
-          </div>
-      </div>
-    </div>
-    <!-- CREATION ARTICLE END-->
+  $id = addslashes(trim($_POST["id"]));
+  $titre = addslashes(trim($_POST["titre"]));
+  $contenu = addslashes(trim($_POST["contenu"]));
+  $date = trim($_POST["date"]);
+
+$sql = "UPDATE article SET titre_art='$titre', contenu_art='$contenu', date_pub_art='$date' WHERE id=$id " ;
 
 
-<script>
-    ClassicEditor
-        .create( document.querySelector( '#editor' ) )
-        .catch( error => {
-            console.error( error );
-        } );
-</script>
+if ($conn->query($sql) === TRUE) {
+// Si les informations sont validées, rediriger l'utilisateur vers la vue (template)
+    echo "<script type='text/javascript'>
+       Swal.fire(
+      'Modifié avec succès !',
+      'Veuillez cliquer sur le boutton ci-dessous !',
+      'success'
+    );
+    var btnSwalls = document.getElementsByClassName('swal2-confirm');
+            for(var i = 0; i<btnSwalls.length; i++)
+            {
+              btnSwalls[i].addEventListener('click', function(e){
+                e.preventDefault();
+                window.location = '../dashboard.php';
+                })
+            }
+    </script>";   
+  }else{
+    echo "<script type='text/javascript'>
+        Swal.fire({
+          icon: 'error',
+          title: 'Oops...',
+          text: 'Veuillez contacter l \'administrateur du site!'
+        });
+        var btnSwalls = document.getElementsByClassName('swal2-confirm');
+        for(var i = 0; i<btnSwalls.length; i++)
+        {
+          btnSwalls[i].addEventListener('click', function(e){
+            e.preventDefault();
+            window.location = 'change_password.php';
+            })
+        }
+      </script>";
+  }
+
+  mysqli_close($conn);
+
+ ?>
+
+
 
 
 

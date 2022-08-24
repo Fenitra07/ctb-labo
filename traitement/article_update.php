@@ -62,6 +62,16 @@ $_SESSION['timeout']=time();
 
 <body>
 
+<?php 
+$id = $_GET['id'];
+$sql = "SELECT * FROM article WHERE id=$id";
+$result = $conn->query($sql);
+$row = $result->fetch_assoc();
+// var_dump($row);die();
+
+ ?>
+
+
     <!-- CREATION ARTICLE -->
     <div class="container pt-5">
       <div class="row article_box">
@@ -69,28 +79,30 @@ $_SESSION['timeout']=time();
             <center>
               <div class="box_effect section-title">
                 <h2 class="">
-                  Formulaire de création d'article
+                  Mettre à jour votre article
                 </h2>
 
-                <form method="post" action="article_insert.php" enctype="multipart/form-data">
+                <form method="POST" action="article_update_process.php">
+                    
+                    <input type="text" class="form-control" name="id" value="<?php echo $row['id']; ?>" hidden>
+
                     <div class="form-group">
-                        <input type="text" class="form-control" name="titre" placeholder="Titre de l'article" required>
+                        <input type="text" class="form-control" name="titre" value="<?php echo $row['titre_art']; ?>" required>
                     </div>
-                    <div class="form-group">
-                        <!-- <input type="hidden" name="MAX_FILE_SIZE" value="30000" /> -->
+                    <!-- <div class="form-group">
                         <input type="file" class="form-control pb-2" name="file">
-                    </div>
+                    </div> -->
                     <div class="form-group">
-                        
-                      <textarea id="editor" class="form-control" rows="5" name="contenu" placeholder="Rédigez votre article ici..." required></textarea>
+
+                      <input type="text" class="form-control" rows="5" name="contenu" value="<?php echo $row['contenu_art']; ?>" required>
 
                     </div>
                     <div class="form-group">
                         <p style="text-align: left;">Date de publication</p>
-                        <input class="form-control" type="date" name="date" required>
+                        <input class="form-control" type="date" name="date" value="<?php echo $row['date_pub_art']; ?>" required>
                     </div>
                     <div>
-                      <input formnovalidate="formnovalidate" type="submit" class="btn btn-primary" value="Ajouter un article">
+                      <input formnovalidate="formnovalidate" type="submit" class="btn btn-primary" value="Enregistrer modification">
                       <a href="../dashboard.php" class="btn btn-danger">Annuler</a>
                     </div>
                 </form>

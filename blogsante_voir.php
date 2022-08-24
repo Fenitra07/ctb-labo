@@ -249,7 +249,7 @@ a:hover {
                  ?>
                 <h3 class="title text-center"><?php echo $row['titre_art']; ?></h3>
                 <hr class="separator">
-                <div class="text-center">
+                <div>
                   <div class="article-img wow zoomIn">
                   <center>
                     <img src="<?php echo 'upload/'.$row['image_art'] ?>">
@@ -260,7 +260,7 @@ a:hover {
                       </center>
                     </div>
                   </div>
-                  <div class="article-content">
+                  <div class="article-content" style="text-align: justify;">
                     <p class="wow fadeInUp" style="text-align: justify;">
                       <?php echo $row['contenu_art']; ?>
                     </p>
