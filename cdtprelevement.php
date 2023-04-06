@@ -139,7 +139,7 @@
             </li>
 
             <li data-aos="fade-up" data-aos-delay="100" style="margin-top: -20px;">
-              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">II.  Les épreuves de l’hypoglycémie provoquée :<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
+              <i class="bx bx-plus-circle icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">II.  Les épreuves de l’hyperglycémie provoquée :<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
                   Pour le dépistage du diabète gestationnel (HGPO), les conditions de jeun total doivent être respectées. Mais en plus, le patient doit rester au laboratoire pendant au moins 2h de temps. Cela, parce que le prélèvement se passe en plusieurs étapes : <br>
