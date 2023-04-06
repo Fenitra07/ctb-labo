@@ -143,7 +143,7 @@
                 <div class="row">
                   <div class="col-lg-6 details order-2 order-lg-1">
                     <h3>Centre technique biomédical d’Antananarivo</h3>
-                    <p>Lot IVL4 Ambodivonakely Ambohimanarina <br>
+                    <p>Lot IVL4 Ambodivonkely Ambohimanarina <br>
                         Tel : 020 22 450 61 <br>
                         Mob : 032 11 450 61 <br>
                         Mail : ctb.tana@ctb.mg
