@@ -12,10 +12,10 @@
           <div class="col-lg-3 col-md-3 footer-contact">
             <h3>ctb-labo</h3>
             <p>
-              Lot IVL 4 Ambodivonakely Andraharo <br>
+              Lot IVL 4 Ambodivonkely Ambohimanarina  <br>
               Antananarivo<br>
               Madagascar <br><br>
-              <strong>Fixe :</strong> 020 22 450 61<br>
+              <strong>Fixe :</strong> 020 78 450 61<br>
               <strong>Mobile :</strong> +261 32 11 450 61<br>
               <strong>Email :</strong> ctb.tana@ctb.mg<br>
             </p>

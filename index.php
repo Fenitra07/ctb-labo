@@ -125,7 +125,7 @@
                   <div class="icon-box mt-4 mt-xl-0">
                     <i class="bx bx-atom"></i>
                     <h4>Fiabilité & Rapidité </h4>
-                    <p style="text-align: justify;">Depuis sa création, le Laboratoire CTB a s’est implanté dans des lieux stratégiques et a veillé tout particulièrement à la fiabilité et la rapidité de ses résultats.</p>
+                    <p style="text-align: justify;">Depuis sa création, le laboratoire CTB s’est implanté dans des lieux stratégiques et a veillé tout particulièrement à la fiabilité et à la rapidité de ses résultats.</p>
                   </div>
                 </div>
                 <div class="col-xl-6 d-flex align-items-stretch">
@@ -156,7 +156,6 @@
 
         <div class="section-title">
           <h2>Historique</h2>
-          <!-- <p>Le directeur du laboratoire, Mr Philippe PONCELET, est venu à Madagascar pour la première fois lors d’un concours d’athlétisme. Ce premier passage dans la Grande île l’a vraiment marqué, si bien qu’il a décidé de revenir, mais pour faire de l’humanitaire cette fois-ci. Philanthrope de nature, il s’est lancé dans les aides humanitaires en faveur des personnes vulnérables et des enfants défavorisés malagasy. </p> -->
         </div>
 
         <div class="faq-list">
@@ -165,7 +164,7 @@
               <i class="bx bx-history icon-help"></i> <a data-bs-toggle="collapse" class="collapse" data-bs-target="#faq-list-1">Lancement du projet humanitaire<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-1" class="collapse show" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
-                  Le directeur du laboratoire, Mr Philippe PONCELET, est venu à Madagascar pour la première fois lors d’un concours d’athlétisme. Ce premier passage dans la Grande île l’a vraiment marqué, si bien qu’il a décidé de revenir, mais pour faire de l’humanitaire cette fois-ci. Philanthrope de nature, il s’est lancé dans les aides humanitaires en faveur des personnes vulnérables et des enfants défavorisés malagasy. 
+                  Le directeur du laboratoire, Philippe PONCELET, est venu à Madagascar pour la première fois lors d’un concours d’athlétisme. Ce premier passage dans la Grande île l’a vraiment marqué, si bien qu’il a décidé de revenir, mais pour faire de l’humanitaire cette fois-ci. Philanthrope de nature, il s’est lancé dans les aides humanitaires en faveur des personnes vulnérables et des enfants défavorisés malagasy. 
                 </p>
               </div>
             </li>
@@ -174,7 +173,7 @@
               <i class="bx bx-history icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-2" class="collapsed">2010, installation du premier laboratoire<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-2" class="collapse" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
-                  Se rendant compte que la biologie n’est pas toujours accessible au peuple malgache, c’est en 2010 qu’il a commencé à installer le premier laboratoire d’analyses médicales CTB à Antananarivo. Situé à Mandrosoa Ivato, celui-ci a commencé à traiter les analyses biochimiques de base avant de s’étendre vers les sérologies plus complexes.
+                  Se rendant compte que la biologie n’est pas toujours accessible aux Malagasy, c’est en 2010 qu’il a inauguré le premier laboratoire d’analyses médicales CTB à Antananarivo. Situé à Mandrosoa Ivato, celui-ci a commencé à traiter les analyses biochimiques de base avant de s’étendre vers les sérologies plus complexes.
                 </p>
               </div>
             </li>
@@ -192,7 +191,7 @@
               <i class="bx bx-history icon-help"></i> <a data-bs-toggle="collapse" data-bs-target="#faq-list-4" class="collapsed">Extension et partenariat<i class="bx bx-chevron-down icon-show"></i><i class="bx bx-chevron-up icon-close"></i></a>
               <div id="faq-list-4" class="collapse" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
-                  Pour étendre son projet de rendre la biologie plus accessible, il a ouvert un autre laboratoire à Tamatave en 2012. Celui-ci est situé près de Bazary Be. Le laboratoire CTB Tamatave, traite presque toutes les analyses médicales sur place, sauf celles qui sont spécialisées.
+                  Pour étendre son projet de rendre la biologie plus accessible, il a ouvert un autre laboratoire à Toamasina en 2012. Celui-ci est situé près de Bazary Be. Le laboratoire CTB Toamasina traite presque toutes les analyses médicales sur place, sauf celles qui sont spécialisées.
                 </p>
               </div>
             </li>
@@ -202,11 +201,11 @@
               <div id="faq-list-5" class="collapse" data-bs-parent=".faq-list">
                 <p style="text-align: justify;">
                   Afin de satisfaire la demande de la population située plus en centre-ville d’Antananarivo, le laboratoire CTB situé à Andraharo a été créé en Décembre 2012. Le plateau technique y a été transféré, et le laboratoire n’a cessé de diversifier les analyses à traiter. <br>
-                  Pour compléter l’extension des laboratoires CTB, celui de CTB Majunga a été ouvert en 2016. Comme celui de Tamatave, il effectue également presque toutes les analyses. <br>
-                  D’autre part, le laboratoire CTB collabore avec d’autres sites indépendants : <br>
-                  • Le CAMM (Centre d’Analyses Médicales de Moramanga), situé à Moramanga, ouvert en 2017 <br>
+                  Pour compléter l’extension des laboratoires CTB, celui de CTB Mahajanga a été ouvert en 2016. Comme celui de Toamasina, il effectue également presque toutes les analyses. <br>
+                  Le laboratoire CTB collabore aussi avec d’autres sites indépendants : <br>
+                  • Le CAMM (Centre d’Analyses Médicales de Moramanga), situé à Moramanga, ouvert depuis 2017 <br>
                   • Le SITMAM, situé à Ambatolampy depuis 2017 <br>
-                  • Le laboratoire de Nosy-Be ou LNB qui a ouvert en 2018
+                  • Le Laboratoire de Nosy-Be ou LNB qui a ouvert en 2018
                 </p>
               </div>
             </li>
@@ -250,8 +249,8 @@
       <div class="container">
 
         <div class="section-title">
-          <h2>Gallerie</h2>
-          <p>C'est toujours efficace d'illustrer les propos par des photos que par des mots. Ici, vous pourrez afficher vos archives (photos), comme par exemple : vos réalisations, vos laboratoires, etc.</p>
+          <h2>Galerie </h2>
+          <!-- <p>C'est toujours efficace d'illustrer les propos par des photos que par des mots. Ici, vous pourrez afficher vos archives (photos), comme par exemple : vos réalisations, vos laboratoires, etc.</p> -->
         </div>
       </div>
 
@@ -318,6 +317,30 @@
             <div class="gallery-item">
               <a href="assets/img/gallery/gallery-8.png" class="galelry-lightbox">
                 <img src="assets/img/gallery/gallery-8.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-9.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-9.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-10.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-10.png" alt="" class="img-fluid">
+              </a>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4">
+            <div class="gallery-item">
+              <a href="assets/img/gallery/gallery-11.png" class="galelry-lightbox">
+                <img src="assets/img/gallery/gallery-11.png" alt="" class="img-fluid">
               </a>
             </div>
           </div>
